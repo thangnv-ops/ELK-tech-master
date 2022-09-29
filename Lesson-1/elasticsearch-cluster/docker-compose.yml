@@ -1,0 +1,126 @@
+version: "2.2"
+
+services:
+
+  elasticsearch1:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.4.2
+    container_name: elasticsearch1
+    hostname: elasticsearch1
+    restart: unless-stopped
+    volumes:
+      - type: volume
+        source: es1_data
+        target: /usr/share/elasticsearch/data
+      - type: bind
+        source: ./shared_folder
+        target: /shared_folder
+    ports: 
+      - "9200:9200"
+    environment:
+      - "node.name=elasticsearch1"
+      - "bootstrap.memory_lock=true"
+      - "cluster.name=es-cluster"
+      - "discovery.seed_hosts=elasticsearch2,elasticsearch3"
+      - "cluster.initial_master_nodes=elasticsearch1,elasticsearch2,elasticsearch3"
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m -Des.index.number_of_replicas=0 -Des.enforce.bootstrap.checks=true"
+      - "xpack.security.enabled=false"
+      - "xpack.security.http.ssl.enabled=false"
+      - "xpack.security.transport.ssl.enabled=false"
+      - "xpack.ml.enabled=false"
+      - "xpack.graph.enabled=false"
+      - "xpack.watcher.enabled=false"
+      - "path.repo=/shared_folder"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9200"]
+      interval: 30s
+      timeout: 10s
+      retries: 30
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    deploy:
+      resources:
+        limits:
+          memory: 1500m
+
+  elasticsearch2:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.4.2
+    container_name: elasticsearch2
+    hostname: elasticsearch2
+    restart: unless-stopped
+    volumes:
+      - type: volume
+        source: es2_data
+        target: /usr/share/elasticsearch/data
+      - type: bind
+        source: ./shared_folder
+        target: /shared_folder
+    ports: 
+      - "9201:9200"
+    environment:
+      - "node.name=elasticsearch2"
+      - "bootstrap.memory_lock=true"
+      - "cluster.name=es-cluster"
+      - "discovery.seed_hosts=elasticsearch1,elasticsearch3"
+      - "cluster.initial_master_nodes=elasticsearch1,elasticsearch2,elasticsearch3"
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m -Des.index.number_of_replicas=0 -Des.enforce.bootstrap.checks=true"
+      - "xpack.security.enabled=false"
+      - "xpack.security.http.ssl.enabled=false"
+      - "xpack.security.transport.ssl.enabled=false"
+      - "xpack.ml.enabled=false"
+      - "xpack.graph.enabled=false"
+      - "xpack.watcher.enabled=false"
+      - "path.repo=/shared_folder"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9200"]
+      interval: 30s
+      timeout: 10s
+      retries: 30
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+
+  elasticsearch3:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.4.2
+    container_name: elasticsearch3
+    hostname: elasticsearch3
+    restart: unless-stopped
+    volumes:
+      - type: volume
+        source: es3_data
+        target: /usr/share/elasticsearch/data
+      - type: bind
+        source: ./shared_folder
+        target: /shared_folder
+    ports: 
+      - "9202:9200"
+    environment:
+      - "node.name=elasticsearch3"
+      - "bootstrap.memory_lock=true"
+      - "cluster.name=es-cluster"
+      - "discovery.seed_hosts=elasticsearch2,elasticsearch3"
+      - "cluster.initial_master_nodes=elasticsearch1,elasticsearch2,elasticsearch3"
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m -Des.index.number_of_replicas=0 -Des.enforce.bootstrap.checks=true"
+      - "xpack.security.enabled=false"
+      - "xpack.security.http.ssl.enabled=false"
+      - "xpack.security.transport.ssl.enabled=false"
+      - "xpack.ml.enabled=false"
+      - "xpack.graph.enabled=false"
+      - "xpack.watcher.enabled=false"
+      - "path.repo=/shared_folder"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9200"]
+      interval: 30s
+      timeout: 10s
+      retries: 30
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+
+volumes:
+  es1_data:
+  es2_data:
+  es3_data:

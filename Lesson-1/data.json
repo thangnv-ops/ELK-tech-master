@@ -1,0 +1,14 @@
+{
+    "@timestamp":"2022-09-27T10:48:25.363Z",
+    "log.level":"INFO",
+    "message":"successfully loaded geoip database file [GeoLite2-City.mmdb]",
+    "ecs.version":"1.2.0",
+    "service.name":"ES_ECS",
+    "event.dataset":"elasticsearch.server",
+    "process.thread.name":"elasticsearch[elasticsearch2][generic][T#2]",
+    "log.logger":"org.elasticsearch.ingest.geoip.DatabaseNodeService",
+    "elasticsearch.cluster.uuid":"Enl7XZ2TRF-oIIeJi5NwCQ",
+    "elasticsearch.node.id":"PxWJdBJ_ReG5k2604j-t6w",
+    "elasticsearch.node.name":"elasticsearch2",
+    "elasticsearch.cluster.name":"es-cluster"
+}
