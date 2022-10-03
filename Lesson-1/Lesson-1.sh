@@ -26,7 +26,7 @@ curl -X PUT "localhost:9200/tech-master?pretty" -H 'Content-Type: application/js
   "settings": {
     "index": {
       "number_of_shards": 3,  
-      "number_of_replicas": 1 
+      "number_of_replicas": 1
     }
   }
 }

@@ -6,7 +6,7 @@ services:
     environment:
       - xpack.security.enabled=false  # security is disabled
       - discovery.type=single-node # single node
-    mem_limit: 1073741824 # container memory limit 1G
+    # mem_limit: 1073741824 # container memory limit 1G
     ports:
       - 9200:9200
     volumes:
