@@ -7,4 +7,4 @@ services:
     user: root
     volumes:
     - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
-    - /var/lib/docker:/var/lib/docker
+    - ./test.log:/var/log/test.log
