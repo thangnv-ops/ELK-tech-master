@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:8.4.2
+    container_name: filebeat
+    user: root
+    volumes:
+        - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
+        - /var/lib/docker:/var/lib/docker
+        - /var/run/docker.sock:/var/run/docker.sock
