@@ -1,2 +1,2 @@
-sudo chown root filebeat.docker.yml
-sudo chmod go-w filebeat.docker.yml
+sudo chown root filebeat.yml
+sudo chmod go-w filebeat.yml

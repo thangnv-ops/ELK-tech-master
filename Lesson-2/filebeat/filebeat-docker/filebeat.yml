@@ -15,7 +15,7 @@ processors:
 output.elasticsearch:
   hosts: ["18.140.233.111:9200"]
   indices:
-    - index: "filebeat-%{[agent.version]}-%{+yyyy.MM.dd}"
+    - index: "docker-%{[agent.version]}-%{+yyyy.MM.dd}"
 
 logging.json: true
 logging.metrics.enabled: false
