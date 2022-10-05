@@ -1,5 +1,5 @@
 filebeat.inputs:
-- type: container
+- type: log
   paths: 
     - '/var/log/test.log'
 
