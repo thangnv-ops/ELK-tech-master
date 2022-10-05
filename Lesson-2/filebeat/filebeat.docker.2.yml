@@ -13,7 +13,7 @@ processors:
     overwrite_keys: true
 
 output.elasticsearch:
-  hosts: ["13.214.219.46:9200"]
+  hosts: ["18.140.233.111:9200"]
   indices:
     - index: "filebeat-%{[agent.version]}-%{+yyyy.MM.dd}"
 

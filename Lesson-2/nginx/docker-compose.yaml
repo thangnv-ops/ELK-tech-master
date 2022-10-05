@@ -5,5 +5,6 @@ services:
     image: nginx
     volumes:
     - ./conf.d:/etc/nginx/conf.d
+    - ./log:/var/log/nginx
     ports:
     - "8080:80"
