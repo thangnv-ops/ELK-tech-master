@@ -1,0 +1,217 @@
+[2022-10-08T06:16:34.601214 #11]  INFO -- : [AWS S3 200 0.107236 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/940/204/94940204_check_tool.mp4")  
+
+[2022-10-08T06:16:34.602943 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:16:34.603636 #11]  INFO -- : Completed 200 OK in 169ms (Views: 0.8ms | ActiveRecord: 2.1ms)
+[2022-10-08T06:17:30.140156 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94951300" for 133.209.116.126 at 2022-10-08 06:17:30 +0000
+[2022-10-08T06:17:30.141907 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:17:30.141961 #11]  INFO -- :   Parameters: {"item_id"=>"94951300"}
+[2022-10-08T06:17:30.182142 #11]  INFO -- : [AWS DynamoDB 200 0.037317 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:17:30.294222 #11]  INFO -- : [AWS S3 200 0.104287 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/951/300/94951300_check_tool.mp4")  
+
+[2022-10-08T06:17:30.295827 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:17:30.296498 #11]  INFO -- : Completed 200 OK in 154ms (Views: 0.7ms | ActiveRecord: 2.4ms)
+[2022-10-08T06:19:30.624955 #14]  INFO -- : Started GET "/admin/item_download/jpgfull?item_id=94927099" for 133.209.116.126 at 2022-10-08 06:19:30 +0000
+[2022-10-08T06:19:30.627226 #14]  INFO -- : Processing by Admin::ItemDownloadController#jpgfull as HTML
+[2022-10-08T06:19:30.627288 #14]  INFO -- :   Parameters: {"item_id"=>"94927099"}
+[2022-10-08T06:19:30.678799 #14]  INFO -- : [AWS DynamoDB 200 0.048999 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:19:30.763637 #14]  INFO -- : [AWS S3 200 0.079184 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"jpgfull/094/927/099/94927099.jpg")  
+
+[2022-10-08T06:19:30.764948 #14]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:19:30.765574 #14]  INFO -- : Completed 200 OK in 138ms (Views: 0.6ms | ActiveRecord: 1.4ms)
+[2022-10-08T06:19:40.429072 #14]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94951611" for 133.209.116.126 at 2022-10-08 06:19:40 +0000
+[2022-10-08T06:19:40.430871 #14]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:19:40.430931 #14]  INFO -- :   Parameters: {"item_id"=>"94951611"}
+[2022-10-08T06:19:40.481965 #14]  INFO -- : [AWS DynamoDB 200 0.048443 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:19:40.573943 #14]  INFO -- : [AWS S3 200 0.085202 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/951/611/94951611_check_tool.mp4")  
+
+[2022-10-08T06:19:40.575493 #14]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:19:40.576184 #14]  INFO -- : Completed 200 OK in 145ms (Views: 0.7ms | ActiveRecord: 1.7ms)
+[2022-10-08T06:20:53.299320 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94951622" for 133.209.116.126 at 2022-10-08 06:20:53 +0000
+[2022-10-08T06:20:53.301073 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:20:53.301141 #11]  INFO -- :   Parameters: {"item_id"=>"94951622"}
+[2022-10-08T06:20:53.349745 #11]  INFO -- : [AWS DynamoDB 200 0.046112 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:20:53.460082 #11]  INFO -- : [AWS S3 200 0.102563 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/951/622/94951622_check_tool.mp4")  
+
+[2022-10-08T06:20:53.461679 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:20:53.462351 #11]  INFO -- : Completed 200 OK in 161ms (Views: 0.7ms | ActiveRecord: 2.0ms)
+[2022-10-08T06:28:15.182618 #14]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94952200" for 133.209.116.126 at 2022-10-08 06:28:15 +0000
+[2022-10-08T06:28:15.184413 #14]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:28:15.184478 #14]  INFO -- :   Parameters: {"item_id"=>"94952200"}
+[2022-10-08T06:28:15.228230 #14]  INFO -- : [AWS DynamoDB 200 0.040988 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:28:15.328075 #14]  INFO -- : [AWS S3 200 0.092507 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/952/200/94952200_check_tool.mp4")  
+
+[2022-10-08T06:28:15.329623 #14]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:28:15.330301 #14]  INFO -- : Completed 200 OK in 146ms (Views: 0.6ms | ActiveRecord: 2.1ms)
+[2022-10-08T06:28:17.459238 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94952202" for 133.209.116.126 at 2022-10-08 06:28:17 +0000
+[2022-10-08T06:28:17.460707 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:28:17.460770 #11]  INFO -- :   Parameters: {"item_id"=>"94952202"}
+[2022-10-08T06:28:17.502130 #11]  INFO -- : [AWS DynamoDB 200 0.038654 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:28:17.649354 #11]  INFO -- : [AWS S3 200 0.138655 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/952/202/94952202_check_tool.mp4")  
+
+[2022-10-08T06:28:17.651109 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:28:17.651793 #11]  INFO -- : Completed 200 OK in 191ms (Views: 0.6ms | ActiveRecord: 3.5ms)
+[2022-10-08T06:29:35.694034 #14]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94952469" for 133.209.116.126 at 2022-10-08 06:29:35 +0000
+[2022-10-08T06:29:35.695363 #14]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:29:35.695449 #14]  INFO -- :   Parameters: {"item_id"=>"94952469"}
+[2022-10-08T06:29:35.742600 #14]  INFO -- : [AWS DynamoDB 200 0.044883 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:29:35.845636 #14]  INFO -- : [AWS S3 200 0.096305 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/952/469/94952469_check_tool.mp4")  
+
+[2022-10-08T06:29:35.847035 #14]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:29:35.847682 #14]  INFO -- : Completed 200 OK in 152ms (Views: 0.6ms | ActiveRecord: 1.9ms)
+[2022-10-08T06:29:40.128962 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94927805" for 133.209.116.126 at 2022-10-08 06:29:40 +0000
+[2022-10-08T06:29:40.136356 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:29:40.136418 #11]  INFO -- :   Parameters: {"item_id"=>"94927805"}
+[2022-10-08T06:29:40.189814 #11]  INFO -- : [AWS DynamoDB 200 0.050989 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:29:40.305072 #11]  INFO -- : [AWS S3 200 0.104825 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/927/805/94927805_check_tool.mp4")  
+
+[2022-10-08T06:29:40.306724 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:29:40.307400 #11]  INFO -- : Completed 200 OK in 171ms (Views: 0.6ms | ActiveRecord: 3.9ms)
+[2022-10-08T06:29:41.941578 #14]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94927806" for 133.209.116.126 at 2022-10-08 06:29:41 +0000
+[2022-10-08T06:29:41.943840 #14]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:29:41.943902 #14]  INFO -- :   Parameters: {"item_id"=>"94927806"}
+[2022-10-08T06:29:41.987172 #14]  INFO -- : [AWS DynamoDB 200 0.040793 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:29:42.121637 #14]  INFO -- : [AWS S3 200 0.125978 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/927/806/94927806_check_tool.mp4")  
+
+[2022-10-08T06:29:42.123582 #14]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:29:42.124217 #14]  INFO -- : Completed 200 OK in 180ms (Views: 0.8ms | ActiveRecord: 2.4ms)
+[2022-10-08T06:36:34.906195 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94942392" for 133.209.116.126 at 2022-10-08 06:36:34 +0000
+[2022-10-08T06:36:34.908064 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:36:34.908128 #11]  INFO -- :   Parameters: {"item_id"=>"94942392"}
+[2022-10-08T06:36:34.954849 #11]  INFO -- : [AWS DynamoDB 200 0.044175 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:36:35.050364 #11]  INFO -- : [AWS S3 200 0.088779 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/942/392/94942392_check_tool.mp4")  
+
+[2022-10-08T06:36:35.051803 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:36:35.052718 #11]  INFO -- : Completed 200 OK in 145ms (Views: 0.8ms | ActiveRecord: 1.9ms)
+[2022-10-08T06:36:41.800839 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94927099" for 133.209.116.126 at 2022-10-08 06:36:41 +0000
+[2022-10-08T06:36:41.802656 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:36:41.802711 #11]  INFO -- :   Parameters: {"item_id"=>"94927099"}
+[2022-10-08T06:36:41.855117 #11]  INFO -- : [AWS DynamoDB 200 0.048468 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:36:41.948463 #11]  INFO -- : [AWS S3 200 0.086648 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/927/099/94927099_check_tool.mp4")  
+
+[2022-10-08T06:36:41.958898 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:36:41.959699 #11]  INFO -- : Completed 200 OK in 157ms (Views: 0.7ms | ActiveRecord: 2.0ms)
+[2022-10-08T06:36:43.239690 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94948274" for 133.209.116.126 at 2022-10-08 06:36:43 +0000
+[2022-10-08T06:36:43.241521 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:36:43.241578 #11]  INFO -- :   Parameters: {"item_id"=>"94948274"}
+[2022-10-08T06:36:43.251711 #11]  INFO -- : [AWS DynamoDB 200 0.007722 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:36:43.292000 #11]  INFO -- : [AWS S3 200 0.033401 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/948/274/94948274_check_tool.mp4")  
+
+[2022-10-08T06:36:43.294338 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:36:43.294968 #11]  INFO -- : Completed 200 OK in 53ms (Views: 0.6ms | ActiveRecord: 1.8ms)
+[2022-10-08T06:36:56.054990 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94948276" for 133.209.116.126 at 2022-10-08 06:36:56 +0000
+[2022-10-08T06:36:56.058910 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:36:56.058971 #11]  INFO -- :   Parameters: {"item_id"=>"94948276"}
+[2022-10-08T06:36:56.110589 #11]  INFO -- : [AWS DynamoDB 200 0.049426 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:36:56.212772 #11]  INFO -- : [AWS S3 200 0.093023 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/948/276/94948276_check_tool.mp4")  
+
+[2022-10-08T06:36:56.214943 #11]  INFO -- :   Rendered text template (0.7ms)
+[2022-10-08T06:36:56.215646 #11]  INFO -- : Completed 200 OK in 157ms (Views: 1.2ms | ActiveRecord: 2.4ms)
+[2022-10-08T06:39:11.686789 #14]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94945398" for 133.209.116.126 at 2022-10-08 06:39:11 +0000
+[2022-10-08T06:39:11.688380 #14]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:39:11.688444 #14]  INFO -- :   Parameters: {"item_id"=>"94945398"}
+[2022-10-08T06:39:11.734788 #14]  INFO -- : [AWS DynamoDB 200 0.043267 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:39:11.838898 #14]  INFO -- : [AWS S3 200 0.089451 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/945/398/94945398_check_tool.mp4")  
+
+[2022-10-08T06:39:11.840412 #14]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:39:11.842328 #14]  INFO -- : Completed 200 OK in 154ms (Views: 0.6ms | ActiveRecord: 9.3ms)
+[2022-10-08T06:39:13.042004 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94945399" for 133.209.116.126 at 2022-10-08 06:39:13 +0000
+[2022-10-08T06:39:13.044085 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:39:13.044148 #11]  INFO -- :   Parameters: {"item_id"=>"94945399"}
+[2022-10-08T06:39:13.086779 #11]  INFO -- : [AWS DynamoDB 200 0.040261 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:39:13.192873 #11]  INFO -- : [AWS S3 200 0.099363 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/945/399/94945399_check_tool.mp4")  
+
+[2022-10-08T06:39:13.194326 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:39:13.194957 #11]  INFO -- : Completed 200 OK in 151ms (Views: 0.6ms | ActiveRecord: 1.9ms)
+[2022-10-08T06:39:14.541348 #14]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94945400" for 133.209.116.126 at 2022-10-08 06:39:14 +0000
+[2022-10-08T06:39:14.543725 #14]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:39:14.543785 #14]  INFO -- :   Parameters: {"item_id"=>"94945400"}
+[2022-10-08T06:39:14.585050 #14]  INFO -- : [AWS DynamoDB 200 0.03898 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:39:14.674589 #14]  INFO -- : [AWS S3 200 0.083153 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/945/400/94945400_check_tool.mp4")  
+
+[2022-10-08T06:39:14.676214 #14]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:39:14.676847 #14]  INFO -- : Completed 200 OK in 133ms (Views: 0.6ms | ActiveRecord: 1.8ms)
+[2022-10-08T06:39:23.964068 #14]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94945438" for 133.209.116.126 at 2022-10-08 06:39:23 +0000
+[2022-10-08T06:39:23.966024 #14]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:39:23.966085 #14]  INFO -- :   Parameters: {"item_id"=>"94945438"}
+[2022-10-08T06:39:24.011065 #14]  INFO -- : [AWS DynamoDB 200 0.042624 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:39:24.101232 #14]  INFO -- : [AWS S3 200 0.083239 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/945/438/94945438_check_tool.mp4")  
+
+[2022-10-08T06:39:24.102609 #14]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:39:24.103275 #14]  INFO -- : Completed 200 OK in 137ms (Views: 0.6ms | ActiveRecord: 1.9ms)
+[2022-10-08T06:47:53.875509 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94946597" for 133.209.116.126 at 2022-10-08 06:47:53 +0000
+[2022-10-08T06:47:53.879686 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:47:53.879753 #11]  INFO -- :   Parameters: {"item_id"=>"94946597"}
+[2022-10-08T06:47:53.927101 #11]  INFO -- : [AWS DynamoDB 200 0.043558 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:47:54.036595 #11]  INFO -- : [AWS S3 200 0.101358 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/946/597/94946597_check_tool.mp4")  
+
+[2022-10-08T06:47:54.038889 #11]  INFO -- :   Rendered text template (0.3ms)
+[2022-10-08T06:47:54.039697 #11]  INFO -- : Completed 200 OK in 160ms (Views: 0.8ms | ActiveRecord: 2.1ms)
+[2022-10-08T06:47:57.600673 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94947675" for 133.209.116.126 at 2022-10-08 06:47:57 +0000
+[2022-10-08T06:47:57.602329 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:47:57.602395 #11]  INFO -- :   Parameters: {"item_id"=>"94947675"}
+[2022-10-08T06:47:57.649034 #11]  INFO -- : [AWS DynamoDB 200 0.043974 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:47:57.718723 #11]  INFO -- : [AWS S3 200 0.057174 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/947/675/94947675_check_tool.mp4")  
+
+[2022-10-08T06:47:57.720340 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:47:57.720971 #11]  INFO -- : Completed 200 OK in 119ms (Views: 0.7ms | ActiveRecord: 5.7ms)
+[2022-10-08T06:53:11.851117 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94926164" for 133.209.116.126 at 2022-10-08 06:53:11 +0000
+[2022-10-08T06:53:11.853493 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:53:11.853552 #11]  INFO -- :   Parameters: {"item_id"=>"94926164"}
+[2022-10-08T06:53:11.896331 #11]  INFO -- : [AWS DynamoDB 200 0.0384 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:53:12.027455 #11]  INFO -- : [AWS S3 200 0.122957 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/926/164/94926164_check_tool.mp4")  
+
+[2022-10-08T06:53:12.029036 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:53:12.029755 #11]  INFO -- : Completed 200 OK in 176ms (Views: 0.7ms | ActiveRecord: 1.8ms)
+[2022-10-08T06:53:13.066114 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94926241" for 133.209.116.126 at 2022-10-08 06:53:13 +0000
+[2022-10-08T06:53:13.075240 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:53:13.075313 #11]  INFO -- :   Parameters: {"item_id"=>"94926241"}
+[2022-10-08T06:53:13.085290 #11]  INFO -- : [AWS DynamoDB 200 0.007488 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:53:13.132306 #11]  INFO -- : [AWS S3 200 0.038754 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/926/241/94926241_check_tool.mp4")  
+
+[2022-10-08T06:53:13.135199 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:53:13.135916 #11]  INFO -- : Completed 200 OK in 61ms (Views: 0.7ms | ActiveRecord: 1.9ms)
+[2022-10-08T06:53:23.422252 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94926248" for 133.209.116.126 at 2022-10-08 06:53:23 +0000
+[2022-10-08T06:53:23.423810 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T06:53:23.423871 #11]  INFO -- :   Parameters: {"item_id"=>"94926248"}
+[2022-10-08T06:53:23.471255 #11]  INFO -- : [AWS DynamoDB 200 0.043908 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T06:53:23.567885 #11]  INFO -- : [AWS S3 200 0.089718 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/926/248/94926248_check_tool.mp4")  
+
+[2022-10-08T06:53:23.569322 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T06:53:23.570045 #11]  INFO -- : Completed 200 OK in 146ms (Views: 0.6ms | ActiveRecord: 1.9ms)
+[2022-10-08T07:09:39.745006 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94943041" for 133.209.116.126 at 2022-10-08 07:09:39 +0000
+[2022-10-08T07:09:39.749935 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T07:09:39.749999 #11]  INFO -- :   Parameters: {"item_id"=>"94943041"}
+[2022-10-08T07:09:40.395155 #11]  INFO -- : [AWS DynamoDB 200 0.642841 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T07:09:40.503921 #11]  INFO -- : [AWS S3 200 0.101736 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/943/041/94943041_check_tool.mp4")  
+
+[2022-10-08T07:09:40.505408 #11]  INFO -- :   Rendered text template (0.2ms)
+[2022-10-08T07:09:40.506079 #11]  INFO -- : Completed 200 OK in 756ms (Views: 0.6ms | ActiveRecord: 1.9ms)
+[2022-10-08T07:09:42.527871 #11]  INFO -- : Started GET "/admin/item_download/footage_check?item_id=94943044" for 133.209.116.126 at 2022-10-08 07:09:42 +0000
+[2022-10-08T07:09:42.529334 #11]  INFO -- : Processing by Admin::ItemDownloadController#footage_check as HTML
+[2022-10-08T07:09:42.529395 #11]  INFO -- :   Parameters: {"item_id"=>"94943044"}
+[2022-10-08T07:09:42.576381 #11]  INFO -- : [AWS DynamoDB 200 0.044351 0 retries] get_item(:key=>{:hash_key_element=>{:n=>"1531362"}},:table_name=>"production-pixta-credentials")  
+
+[2022-10-08T07:09:42.666148 #11]  INFO -- : [AWS S3 200 0.083071 0 retries] head_object(:bucket_name=>"pixta-footage-check-jp",:key=>"mp4/094/943/044/94943044_check_tool.mp4")  

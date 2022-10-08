@@ -6,4 +6,4 @@ filebeat.inputs:
 output.elasticsearch:
   hosts: ["18.140.233.111:9200"]
   indices:
-    - index: "filebeat-%{[agent.version]}-%{+yyyy.MM.dd}"
+    - index: "thangnv-%{[agent.version]}-%{+yyyy.MM.dd}"

@@ -1,0 +1,7 @@
+filebeat.inputs:
+- type: log
+  paths: 
+    - '/var/log/nginx/host.access.log'
+
+output.logstash:
+  hosts: ["18.140.233.111:5044"]

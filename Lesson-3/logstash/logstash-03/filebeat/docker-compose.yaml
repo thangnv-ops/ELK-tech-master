@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  filebeat-nginx:
+    image: docker.elastic.co/beats/filebeat:8.4.2
+    container_name: filebeat-nginx
+    user: root
+    volumes:
+    - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
+    - /home/ubuntu/ELK-tech-master/Lesson-2/nginx/log:/var/log/nginx/
