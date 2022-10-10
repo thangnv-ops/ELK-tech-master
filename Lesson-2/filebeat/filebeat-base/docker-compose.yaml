@@ -8,3 +8,8 @@ services:
     volumes:
     - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
     - ./test.log:/var/log/test.log
+    networks:
+      - techmaster
+networks:
+  techmaster:
+    external: true

@@ -4,4 +4,4 @@ filebeat.inputs:
     - '/var/log/nginx/host.access.log'
 
 output.logstash:
-  hosts: ["18.140.233.111:5044"]
+  hosts: ["logstash-03:5044"]

@@ -8,4 +8,9 @@ services:
     volumes:
     - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
     - ./nginx.yml:/usr/share/filebeat/modules.d/nginx.yml
-    - /home/ubuntu/ELK-tech-master/Lesson-2/nginx/log:/var/log/nginx/
+    - ../../../Lesson-2/nginx/log:/var/log/nginx/
+    networks:
+      - techmaster
+networks:
+  techmaster:
+    external: true

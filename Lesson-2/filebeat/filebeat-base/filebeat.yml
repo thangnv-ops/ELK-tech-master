@@ -4,6 +4,6 @@ filebeat.inputs:
     - '/var/log/test.log'
 
 output.elasticsearch:
-  hosts: ["18.140.233.111:9200"]
+  hosts: ["elasticsearch:9200"]
   indices:
-    - index: "thangnv-%{[agent.version]}-%{+yyyy.MM.dd}"
+    - index: "filebeat-base-%{[agent.version]}-%{+yyyy.MM.dd}"

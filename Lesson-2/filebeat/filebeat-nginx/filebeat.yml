@@ -4,6 +4,6 @@ filebeat.inputs:
     - '/var/log/nginx/host.access.log'
 
 output.elasticsearch:
-  hosts: ["18.140.233.111:9200"]
+  hosts: ["elasticsearch:9200"]
   indices:
   - index: "nginx-%{[agent.version]}-%{+yyyy.MM.dd}"

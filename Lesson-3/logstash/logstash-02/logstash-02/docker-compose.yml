@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  logstash:
+  logstash-02:
     image: docker.elastic.co/logstash/logstash:8.4.3
     volumes:
       - ./logstash.yml:/usr/share/logstash/config/logstash.yml:ro,Z
@@ -13,3 +13,8 @@ services:
       - "50000:50000/tcp"
       - "50000:50000/udp"
       - "9600:9600"
+    networks:
+      - techmaster
+networks:
+  techmaster:
+    external: true

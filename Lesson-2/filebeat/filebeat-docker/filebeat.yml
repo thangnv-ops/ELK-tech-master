@@ -13,7 +13,7 @@ processors:
     overwrite_keys: true
 
 output.elasticsearch:
-  hosts: ["18.140.233.111:9200"]
+  hosts: ["elasticsearch:9200"]
   indices:
     - index: "docker-%{[agent.version]}-%{+yyyy.MM.dd}"
 

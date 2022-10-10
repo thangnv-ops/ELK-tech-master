@@ -10,3 +10,47 @@
 2022/10/08 04:49:19 [error] 30#30: *1 open() "/usr/share/nginx/html/123" failed (2: No such file or directory), client: 58.187.248.211, server: _, request: "GET /123 HTTP/1.1", host: "18.140.233.111:8080"
 2022/10/08 04:49:20 [error] 30#30: *1 open() "/usr/share/nginx/html/123" failed (2: No such file or directory), client: 58.187.248.211, server: _, request: "GET /123 HTTP/1.1", host: "18.140.233.111:8080"
 2022/10/08 04:49:20 [error] 30#30: *1 open() "/usr/share/nginx/html/123" failed (2: No such file or directory), client: 58.187.248.211, server: _, request: "GET /123 HTTP/1.1", host: "18.140.233.111:8080"
+2022/10/08 10:49:55 [error] 31#31: *19 open() "/usr/share/nginx/html/login" failed (2: No such file or directory), client: 185.180.143.81, server: _, request: "GET /login HTTP/1.1", host: "18.140.233.111:8080"
+2022/10/08 10:50:10 [error] 31#31: *21 "/usr/share/nginx/html/webfig/index.html" is not found (2: No such file or directory), client: 185.180.143.81, server: _, request: "GET /webfig/ HTTP/1.1", host: "18.140.233.111:8080"
+2022/10/08 12:48:17 [error] 31#31: *23 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 58.187.248.211, server: _, request: "GET /favicon.ico HTTP/1.1", host: "18.140.233.111:8080", referrer: "http://18.140.233.111:8080/"
+2022/10/08 12:57:32 [error] 31#31: *26 open() "/usr/share/nginx/html/1234" failed (2: No such file or directory), client: 58.187.248.211, server: _, request: "GET /1234 HTTP/1.1", host: "18.140.233.111:8080"
+2022/10/08 12:57:34 [error] 31#31: *26 open() "/usr/share/nginx/html/1234" failed (2: No such file or directory), client: 58.187.248.211, server: _, request: "GET /1234 HTTP/1.1", host: "18.140.233.111:8080"
+2022/10/08 12:57:34 [error] 31#31: *26 open() "/usr/share/nginx/html/1234" failed (2: No such file or directory), client: 58.187.248.211, server: _, request: "GET /1234 HTTP/1.1", host: "18.140.233.111:8080"
+2022/10/08 12:57:35 [error] 31#31: *26 open() "/usr/share/nginx/html/1234" failed (2: No such file or directory), client: 58.187.248.211, server: _, request: "GET /1234 HTTP/1.1", host: "18.140.233.111:8080"
+2022/10/08 13:50:15 [notice] 1#1: using the "epoll" event method
+2022/10/08 13:50:15 [notice] 1#1: nginx/1.23.1
+2022/10/08 13:50:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/08 13:50:15 [notice] 1#1: OS: Linux 5.15.0-1020-aws
+2022/10/08 13:50:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/08 13:50:15 [notice] 1#1: start worker processes
+2022/10/08 13:50:15 [notice] 1#1: start worker process 30
+2022/10/08 13:50:15 [notice] 1#1: start worker process 31
+2022/10/08 13:58:03 [error] 30#30: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 58.187.248.211, server: _, request: "GET /favicon.ico HTTP/1.1", host: "13.215.227.19:8080", referrer: "http://13.215.227.19:8080/"
+2022/10/08 14:27:18 [error] 30#30: *4 open() "/usr/share/nginx/html/echo.php" failed (2: No such file or directory), client: 5.188.210.227, server: _, request: "GET http://5.188.210.227/echo.php HTTP/1.1", host: "5.188.210.227", referrer: "https://www.google.com/"
+2022/10/08 22:56:59 [error] 31#31: *23 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 167.94.138.120, server: _, request: "GET /favicon.ico HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 00:54:41 [error] 31#31: *29 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 3.17.65.249, server: _, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "13.215.227.19:8080", referrer: "http://13.215.227.19:8080/admin/login.asp"
+2022/10/09 04:20:42 [error] 30#30: *37 open() "/usr/share/nginx/html/\.gif\..\adm\management.asp" failed (2: No such file or directory), client: 13.58.87.219, server: _, request: "GET /%5C.gif%5C..%5Cadm%5Cmanagement.asp HTTP/1.1", host: "13.215.227.19:8080", referrer: "http://13.215.227.19:8080/"
+2022/10/09 04:35:52 [error] 30#30: *39 open() "/usr/share/nginx/html/TP/public/index.php" failed (2: No such file or directory), client: 120.92.147.164, server: _, request: "GET /TP/public/index.php HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 04:35:53 [error] 30#30: *40 open() "/usr/share/nginx/html/TP/index.php" failed (2: No such file or directory), client: 120.92.147.164, server: _, request: "GET /TP/index.php HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 04:35:53 [error] 30#30: *41 open() "/usr/share/nginx/html/thinkphp/html/public/index.php" failed (2: No such file or directory), client: 120.92.147.164, server: _, request: "GET /thinkphp/html/public/index.php HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 04:35:53 [error] 30#30: *42 open() "/usr/share/nginx/html/html/public/index.php" failed (2: No such file or directory), client: 120.92.147.164, server: _, request: "GET /html/public/index.php HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 04:35:53 [error] 30#30: *43 open() "/usr/share/nginx/html/public/index.php" failed (2: No such file or directory), client: 120.92.147.164, server: _, request: "GET /public/index.php HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 04:35:53 [error] 30#30: *44 open() "/usr/share/nginx/html/TP/html/public/index.php" failed (2: No such file or directory), client: 120.92.147.164, server: _, request: "GET /TP/html/public/index.php HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 04:35:54 [error] 30#30: *45 open() "/usr/share/nginx/html/elrekt.php" failed (2: No such file or directory), client: 120.92.147.164, server: _, request: "GET /elrekt.php HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 04:35:54 [error] 30#30: *46 open() "/usr/share/nginx/html/index.php" failed (2: No such file or directory), client: 120.92.147.164, server: _, request: "GET /index.php HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 04:35:54 [error] 30#30: *47 open() "/usr/share/nginx/html/users" failed (2: No such file or directory), client: 120.92.147.164, server: _, request: "POST /users?page=&size=5 HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 12:05:27 [error] 31#31: *60 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 152.32.201.129, server: _, request: "GET /favicon.ico HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 12:05:31 [error] 31#31: *61 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 152.32.201.129, server: _, request: "GET /robots.txt HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 12:05:34 [error] 31#31: *62 open() "/usr/share/nginx/html/sitemap.xml" failed (2: No such file or directory), client: 152.32.201.129, server: _, request: "GET /sitemap.xml HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 18:41:55 [error] 30#30: *73 open() "/usr/share/nginx/html/hudson" failed (2: No such file or directory), client: 192.241.209.62, server: _, request: "GET /hudson HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/09 20:50:56 [error] 30#30: *82 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 178.79.150.55, server: _, request: "GET /favicon.ico HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/10 00:21:02 [error] 31#31: *87 open() "/usr/share/nginx/html/actuator/health" failed (2: No such file or directory), client: 192.241.216.110, server: _, request: "GET /actuator/health HTTP/1.1", host: "13.215.227.19:8080"
+2022/10/10 03:55:32 [notice] 1#1: using the "epoll" event method
+2022/10/10 03:55:32 [notice] 1#1: nginx/1.23.1
+2022/10/10 03:55:32 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/10 03:55:32 [notice] 1#1: OS: Linux 5.15.0-1020-aws
+2022/10/10 03:55:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/10 03:55:32 [notice] 1#1: start worker processes
+2022/10/10 03:55:32 [notice] 1#1: start worker process 30
+2022/10/10 03:55:32 [notice] 1#1: start worker process 31
+2022/10/10 03:55:43 [error] 31#31: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 27.72.104.233, server: _, request: "GET /favicon.ico HTTP/1.1", host: "52.221.3.130:8080", referrer: "http://52.221.3.130:8080/"
