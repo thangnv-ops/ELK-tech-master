@@ -1,0 +1,45 @@
+{
+	"_index": "lesson-04-base-2022.10.12",
+	"_id": "vvgay4MB27-bBdEtia1F",
+	"_version": 1,
+	"_seq_no": 2592,
+	"_primary_term": 1,
+	"found": true,
+	"_source": {
+		"ecs": {
+			"version": "8.0.0"
+		},
+		"message": "\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)",
+		"addtime": "07:30",
+        "phone": "0966180809",
+		"host": {
+			"name": "ab52a604ff85"
+		},
+		"input": {
+			"type": "log"
+		},
+		"log": {
+			"offset": 131847,
+			"file": {
+				"path": "/var/log/error-java.log"
+			}
+		},
+		"event": {
+			"original": "\tat org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)"
+		},
+		"@version": "1",
+		"@timestamp": "2022-10-12T07:30:19.570Z",
+		"tags": [
+			"beats_input_codec_plain_applied"
+		],
+		"agent": {
+			"type": "filebeat",
+			"id": "3a90388f-73ff-47cd-9c55-02198cf6f704",
+			"version": "8.4.2",
+			"name": "ab52a604ff85",
+			"ephemeral_id": "f3a7a955-cb10-43a9-b6fa-52d12d819f59"
+		}
+	}
+}
+
+

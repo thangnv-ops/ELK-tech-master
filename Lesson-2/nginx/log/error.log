@@ -54,3 +54,16 @@
 2022/10/10 03:55:32 [notice] 1#1: start worker process 30
 2022/10/10 03:55:32 [notice] 1#1: start worker process 31
 2022/10/10 03:55:43 [error] 31#31: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 27.72.104.233, server: _, request: "GET /favicon.ico HTTP/1.1", host: "52.221.3.130:8080", referrer: "http://52.221.3.130:8080/"
+2022/10/10 06:19:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/10 06:19:34 [notice] 30#30: gracefully shutting down
+2022/10/10 06:19:34 [notice] 30#30: exiting
+2022/10/10 06:19:34 [notice] 30#30: exit
+2022/10/10 06:19:34 [notice] 31#31: gracefully shutting down
+2022/10/10 06:19:34 [notice] 31#31: exiting
+2022/10/10 06:19:34 [notice] 31#31: exit
+2022/10/10 06:19:34 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2022/10/10 06:19:34 [notice] 1#1: worker process 30 exited with code 0
+2022/10/10 06:19:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/10 06:19:34 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2022/10/10 06:19:34 [notice] 1#1: worker process 31 exited with code 0
+2022/10/10 06:19:34 [notice] 1#1: exit

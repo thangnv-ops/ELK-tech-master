@@ -1,13 +1,12 @@
 version: "3.8"
 
 services:
-  filebeat-nginx:
+  filebeat:
     image: docker.elastic.co/beats/filebeat:8.4.2
-    container_name: filebeat-nginx
     user: root
     volumes:
     - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
-    - ../../nginx/log:/var/log/nginx/
+    - ./error-java.log:/var/log/error-java.log
     networks:
       - elk_ELK-lesson-04
 networks:

@@ -1,0 +1,8 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 192.168.16.2. Set the 'ServerName' directive globally to suppress this message
+[Mon Oct 10 09:21:40.998255 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/7.4.32 configured -- resuming normal operations
+[Mon Oct 10 09:21:40.998459 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+sh: 1: /usr/sbin/sendmail: not found
+[Tue Oct 11 08:34:56.304807 2022] [mpm_prefork:notice] [pid 1] AH00170: caught SIGWINCH, shutting down gracefully
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.24.0.2. Set the 'ServerName' directive globally to suppress this message
+[Wed Oct 12 09:59:50.088625 2022] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.54 (Debian) PHP/8.1.11 configured -- resuming normal operations
+[Wed Oct 12 09:59:50.091101 2022] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'

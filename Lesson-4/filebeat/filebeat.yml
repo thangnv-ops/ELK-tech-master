@@ -1,0 +1,12 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/error-java.log
+  # multiline.pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
+  # multiline.negate: true
+  # multiline.match: after
+
+output.logstash:
+  hosts: ["logstash:5044"]
+
