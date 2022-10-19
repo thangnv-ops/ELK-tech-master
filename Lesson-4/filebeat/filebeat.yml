@@ -3,9 +3,14 @@ filebeat.inputs:
   enabled: true
   paths:
     - /var/log/error-java.log
-  # multiline.pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
-  # multiline.negate: true
-  # multiline.match: after
+  multiline.pattern: '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
+  multiline.negate: true
+  multiline.match: after
+
+processors:
+- add_labels:
+    labels:
+      filebeat: test
 
 output.logstash:
   hosts: ["logstash:5044"]

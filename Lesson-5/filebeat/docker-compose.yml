@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:8.4.2
+    user: root
+    volumes:
+    - ./filebeat.yml:/usr/share/filebeat/filebeat.yml
+    - ./log-example:/var/log/log-example
+    networks:
+      - elasticsearch_lesson5
+networks:
+  elasticsearch_lesson5:
+    external: true
