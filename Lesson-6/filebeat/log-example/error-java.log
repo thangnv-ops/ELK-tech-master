@@ -430,4 +430,15 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'FO
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
 	... 25 common frames omitted
-	
+
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed
+2022-09-28 02:09:25,145 ERROR org.springframework.boot.SpringApplication [main] Application run failed

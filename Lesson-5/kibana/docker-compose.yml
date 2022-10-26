@@ -8,7 +8,7 @@ services:
     ports:
       - "5601:5601"
     environment:
-      KIBANA_SYSTEM_PASSWORD: "UeDRzx1BhiCj42fvGfmR"
+      KIBANA_SYSTEM_PASSWORD: "yxcxxJFmUV7CaVsoXSb3"
       # Fleet plugin
       KIBANA_FLEET_SETUP: '1'
     networks:

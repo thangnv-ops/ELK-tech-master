@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  elastalert:
+    image: ghcr.io/jertel/elastalert2/elastalert2
+    init: true
+    volumes:
+      - ./elastalert.yaml:/opt/elastalert/config.yaml
+      - ./rules:/opt/elastalert/rules
+      - /etc/timezone:/etc/timezone
+    networks:
+      - elk_ELK-lesson-06
+networks:
+  elk_ELK-lesson-06:
+    external: true

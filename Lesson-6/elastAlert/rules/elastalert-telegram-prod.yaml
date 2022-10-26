@@ -1,0 +1,24 @@
+
+es_host: elasticsearch
+es_port: 9200
+# es_username: elastic
+# es_password: T9FhFmAkN3rDfrdiJ5
+
+name: techmaster
+type: any
+index: lesson-06*
+
+filter:
+- query:    
+    query_string:
+      query: "ERROR"
+
+alert:
+- "telegram"
+alert_text: "from techmaster - {0} \n {1}"
+alert_text_args: ["@timestamp" , "message" ]
+alert_text_type: alert_text_only
+alert_subject_args:
+  - "message"
+telegram_bot_token: 5573884598:AAGMvBN4QGwMXNuC_jzwA2_UB8bL0QTXyRY
+telegram_room_id: "-898635285"
