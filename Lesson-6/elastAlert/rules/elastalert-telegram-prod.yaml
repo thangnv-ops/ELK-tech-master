@@ -4,7 +4,7 @@ es_port: 9200
 # es_username: elastic
 # es_password: T9FhFmAkN3rDfrdiJ5
 
-name: techmaster
+name: thangnv
 type: any
 index: lesson-06*
 
@@ -20,5 +20,5 @@ alert_text_args: ["@timestamp" , "message" ]
 alert_text_type: alert_text_only
 alert_subject_args:
   - "message"
-telegram_bot_token: 5573884598:AAGMvBN4QGwMXNuC_jzwA2_UB8bL0QTXyRY
-telegram_room_id: "-898635285"
+telegram_bot_token: 5596884767:AAHwneD-u5wTKjJncM3NiX_pv69_gEpCGGU
+telegram_room_id: "-888913730"
