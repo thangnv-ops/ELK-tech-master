@@ -1,0 +1,27 @@
+version: "2.2"
+
+services:  
+  apm:
+    image: docker.elastic.co/apm/apm-server:8.2.2
+    volumes:
+      - elk_certs:/usr/share/apm-server/certs
+    ports:
+      - 8200:8200
+    command: >
+      apm-server -e
+         -E output.elasticsearch.hosts=["es01:9200"]
+         -E output.elasticsearch.protocol=https
+         -E output.elasticsearch.username=elastic
+         -E output.elasticsearch.password=pass@123
+         -E output.elasticsearch.ssl.enabled=true
+         -E output.elasticsearch.ssl.certificate_authorities=/usr/share/apm-server/certs/ca/ca.crt
+         -E output.elasticsearch.ssl.certificate=/usr/share/apm-server/certs/es01/es01.crt
+         -E output.elasticsearch.ssl.key=/usr/share/apm-server/certs/es01/es01.key
+    networks:
+      - elk_default
+networks:
+  elk_default:
+    external: true
+volumes:
+  elk_certs:
+    external: true

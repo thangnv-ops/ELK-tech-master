@@ -3,13 +3,13 @@ services:
   php:
     build: .
     environment:
-      - ELASTIC_APM_SERVICE_NAME="My service"
+      - ELASTIC_APM_SERVICE_NAME="PHP techmaster"
       - ELASTIC_APM_SERVER_URL=http://apm:8200
       - ELASTIC_APM_SECRET_TOKEN=""
     ports:
     - 80:80
     networks:
-    - docker-elastic_default
+    - elk_default
   mariadb:
     image: mariadb
     environment:
@@ -18,10 +18,10 @@ services:
     volumes:
     - database:/var/lib/mysql
     networks:
-    - docker-elastic_default
+    - elk_default
 volumes:
   database:
     driver: local
 networks:
-  docker-elastic_default:
+  elk_default:
     external: true

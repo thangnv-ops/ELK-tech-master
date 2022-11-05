@@ -19,7 +19,12 @@ data:
             matchers:
             - logs_path:
                 logs_path: "/var/log/containers/"
-
+        - drop_event.when:
+            or:
+            - equals:
+                kubernetes.namespace: "kube-system"
+            - equals:
+                kubernetes.namespace: "calico-system"
     # To enable hints based autodiscover, remove `filebeat.inputs` configuration and uncomment this:
     #filebeat.autodiscover:
     #  providers:
@@ -36,7 +41,7 @@ data:
       - add_host_metadata:
 
     output.logstash:
-      hosts: ["192.168.49.1:5044"]
+      hosts: ["192.168.67.1:5044"]
 ---
 apiVersion: apps/v1
 kind: DaemonSet
