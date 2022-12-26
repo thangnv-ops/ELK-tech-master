@@ -7,6 +7,18 @@ docker-compose up -d
 ############## Kiểm tra kết quả
 curl http://127.0.0.1:9200
 
+# return just process
+curl -X GET "localhost:9200/_nodes/process?pretty"
+# same as above
+curl -X GET "localhost:9200/_nodes/_all/process?pretty"
+# return just jvm and process of only nodeId1 and nodeId2
+curl -X GET "localhost:9200/_nodes/nodeId1,nodeId2/jvm,process?pretty"
+# same as above
+curl -X GET "localhost:9200/_nodes/nodeId1,nodeId2/info/jvm,process?pretty"
+# return all the information of only nodeId1 and nodeId2
+curl -X GET "localhost:9200/_nodes/nodeId1,nodeId2/_all?pretty"
+
+
 ############## Lab 2.  Tạo index
 curl -X PUT "localhost:9200/tech-master?pretty"
 # Check index đã tạo
